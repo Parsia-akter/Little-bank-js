@@ -10,11 +10,11 @@ document.getElementById('diposit-btn').addEventListener('click',function()
       totalDiposit.innerText=parseFloat(totalDiposit.innerText)+parseFloat(dipositInput.value)
       totalBalance.innerText=parseFloat(totalBalance.innerText)+parseFloat(dipositInput.value)
     }
-    else
+    else{
       alert('please enter positive amount');
     }  
-    
-     dipositInput.value=''
+
+    dipositInput.value='' 
     
 })
 
