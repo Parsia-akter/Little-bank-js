@@ -1,3 +1,4 @@
+
 //for diposit
 document.getElementById('diposit-btn').addEventListener('click',function()
 {
@@ -9,10 +10,11 @@ document.getElementById('diposit-btn').addEventListener('click',function()
       totalDiposit.innerText=parseFloat(totalDiposit.innerText)+parseFloat(dipositInput.value)
       totalBalance.innerText=parseFloat(totalBalance.innerText)+parseFloat(dipositInput.value)
     }
-    else{
-      alert('please enter positive amount')
-    }
-    dipositInput.value=''
+    else
+      alert('please enter positive amount');
+    }  
+    
+     dipositInput.value=''
     
 })
 
@@ -35,3 +37,4 @@ document.getElementById('withdrow-btn').addEventListener('click',function()
    
     withdrowInput.value=''
 })
+
